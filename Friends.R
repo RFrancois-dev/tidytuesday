@@ -1,5 +1,7 @@
 #load data
-load(file = "friendsData.R")
+library(tidytuesdayR)
+data <- tt_load(2020, 37)
+
 #tidyverse is the 7th friend
 library(tidyverse)
 
